@@ -1,0 +1,7 @@
+<div class="weather-search-container">
+	<form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
+		<label for="city"></label>
+		<input id="city" type="text" name="city" ngModel="location" required>
+		<button type="submit">Buscar</button>
+	</form>	
+</div>
